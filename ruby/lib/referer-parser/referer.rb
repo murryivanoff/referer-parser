@@ -23,7 +23,8 @@ module RefererParser
                 :known,
                 :referer,
                 :search_parameter,
-                :search_term
+                :search_term, 
+                :type
 
     # So can be interrogated with .known? too.
     alias_method :known?, :known
@@ -40,6 +41,7 @@ module RefererParser
         @known = false
         @referer, @search_parameter, @search_term = nil # Being explicit
       end
+      @type = 'tralala'
     end
 
     private # -------------------------------------------------------------
