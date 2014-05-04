@@ -37,11 +37,11 @@ module RefererParser
         @known = true
         @referer = referer['name']
         @search_parameter, @search_term = Referer::extract_search(@uri, referer['parameters'])
+        @type = referer['type']
       else
         @known = false
-        @referer, @search_parameter, @search_term = nil # Being explicit
+        @referer, @search_parameter, @search_term, @type = nil # Being explicit
       end
-      @type = 'tralala'
     end
 
     private # -------------------------------------------------------------

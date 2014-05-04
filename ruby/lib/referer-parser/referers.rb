@@ -71,23 +71,19 @@ module RefererParser
       # Validate the YAML file, building the lookup
       # hash of referer domains as we go
       referers = Hash.new
-      raw_referers.each { |type, referers|
-        puts type.inspect
-      }
-      return true
-      raw_referers.each { | referer, data |
-        if data['parameters'].nil?
-          raise CorruptReferersYamlError, "No parameters found for referer '#{referer}'"
-        end
-        if data['domains'].nil? 
-          raise CorruptReferersYamlError, "No domains found for referer '#{referer}'"
-        end
-        
-        data['domains'].each do | domain |
-          domain_pair = { domain => { "name" => referer,
-                                      "parameters" => data['parameters']}}
-          referers.merge!(domain_pair)
-        end
+      raw_referers.each { | type, type_referers |
+        type_referers.each { | referer, data |
+          if data['domains'].nil? 
+            raise CorruptReferersYamlError, "No domains found for referer '#{referer}'"
+          end
+          
+          data['domains'].each do | domain |
+            domain_pair = { domain => { "name" => referer,
+                                        "parameters" => data['parameters'] || [], 
+                                        "type" => type}}
+            referers.merge!(domain_pair)
+          end
+        }        
       }
       return referers 
     end
