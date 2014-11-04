@@ -76,14 +76,22 @@
                 "p"
             ]
         }, 
+        "360.cn": {
+            "domains": [
+                "so.360.cn", 
+                "www.so.com"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
         "RPMFind": {
             "domains": [
                 "rpmfind.net", 
                 "fr2.rpmfind.net"
             ], 
             "parameters": [
-                "rpmfind.net", 
-                "fr2.rpmfind.net"
+                "query"
             ]
         }, 
         "Comcast": {
@@ -100,7 +108,8 @@
                 "www.lemoteur.fr"
             ], 
             "parameters": [
-                "rdata"
+                "rdata", 
+                "kw"
             ]
         }, 
         "Nifty": {
@@ -1284,9 +1293,11 @@
                 "yandex.ru", 
                 "yandex.ua", 
                 "yandex.com", 
+                "yandex.by", 
                 "www.yandex.ru", 
                 "www.yandex.ua", 
-                "www.yandex.com"
+                "www.yandex.com", 
+                "www.yandex.by"
             ], 
             "parameters": [
                 "text"
@@ -1306,6 +1317,14 @@
             ], 
             "parameters": [
                 "query"
+            ]
+        }, 
+        "Blogdigger": {
+            "domains": [
+                "www.blogdigger.com"
+            ], 
+            "parameters": [
+                "q"
             ]
         }, 
         "Startpagina": {
@@ -1408,14 +1427,6 @@
                 "searchfor"
             ]
         }, 
-        "Aport": {
-            "domains": [
-                "sm.aport.ru"
-            ], 
-            "parameters": [
-                "r"
-            ]
-        }, 
         "Trusted-Search": {
             "domains": [
                 "www.trusted--search.com"
@@ -1475,12 +1486,13 @@
                 "query"
             ]
         }, 
-        "Searchy": {
+        "Amazon": {
             "domains": [
-                "www.searchy.co.uk"
+                "amazon.com", 
+                "www.amazon.com"
             ], 
             "parameters": [
-                "q"
+                "keywords"
             ]
         }, 
         "Onet": {
@@ -1623,6 +1635,15 @@
                 "q"
             ]
         }, 
+        "Globososo": {
+            "domains": [
+                "searches.globososo.com", 
+                "search.globososo.com"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
         "WWW": {
             "domains": [
                 "search.www.ee"
@@ -1654,6 +1675,15 @@
                 "eu.ixquick.com", 
                 "s8-eu.ixquick.com", 
                 "s1-eu.ixquick.de"
+            ], 
+            "parameters": [
+                "query"
+            ]
+        }, 
+        "Naver Images": {
+            "domains": [
+                "image.search.naver.com", 
+                "imagesearch.naver.com"
             ], 
             "parameters": [
                 "query"
@@ -1715,12 +1745,20 @@
                 "q"
             ]
         }, 
-        "Blogdigger": {
+        "Searchy": {
             "domains": [
-                "www.blogdigger.com"
+                "www.searchy.co.uk"
             ], 
             "parameters": [
                 "q"
+            ]
+        }, 
+        "Findwide": {
+            "domains": [
+                "search.findwide.com"
+            ], 
+            "parameters": [
+                "k"
             ]
         }, 
         "WebSearch": {
@@ -1820,6 +1858,14 @@
                 "q"
             ]
         }, 
+        "Startsiden": {
+            "domains": [
+                "www.startsiden.no"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
         "Yam": {
             "domains": [
                 "search.yam.com"
@@ -1896,15 +1942,6 @@
                 "q"
             ]
         }, 
-        "Austronaut": {
-            "domains": [
-                "www2.austronaut.at", 
-                "www1.astronaut.at"
-            ], 
-            "parameters": [
-                "q"
-            ]
-        }, 
         "Vindex": {
             "domains": [
                 "www.vindex.nl", 
@@ -1912,6 +1949,15 @@
             ], 
             "parameters": [
                 "search_for"
+            ]
+        }, 
+        "Babylon": {
+            "domains": [
+                "search.babylon.com", 
+                "searchassist.babylon.com"
+            ], 
+            "parameters": [
+                "q"
             ]
         }, 
         "TrovaRapido": {
@@ -2165,6 +2211,14 @@
         "AllTheWeb": {
             "domains": [
                 "www.alltheweb.com"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
+        "Snapdo": {
+            "domains": [
+                "search.snapdo.com"
             ], 
             "parameters": [
                 "q"
@@ -2522,10 +2576,10 @@
                 "q"
             ]
         }, 
-        "Babylon": {
+        "Austronaut": {
             "domains": [
-                "search.babylon.com", 
-                "searchassist.babylon.com"
+                "www2.austronaut.at", 
+                "www1.astronaut.at"
             ], 
             "parameters": [
                 "q"
@@ -2553,6 +2607,14 @@
             ], 
             "parameters": [
                 "query"
+            ]
+        }, 
+        "Certified-Toolbar": {
+            "domains": [
+                "search.certified-toolbar.com"
+            ], 
+            "parameters": [
+                "q"
             ]
         }, 
         "Yahoo!": {
@@ -2645,12 +2707,12 @@
                 "Keywords"
             ]
         }, 
-        "Startsiden": {
+        "Aport": {
             "domains": [
-                "www.startsiden.no"
+                "sm.aport.ru"
             ], 
             "parameters": [
-                "q"
+                "r"
             ]
         }, 
         "Web.de": {
@@ -3441,15 +3503,6 @@
                 "q"
             ]
         }, 
-        "Amazon": {
-            "domains": [
-                "amazon.com", 
-                "www.amazon.com"
-            ], 
-            "parameters": [
-                "keywords"
-            ]
-        }, 
         "Hooseek.com": {
             "domains": [
                 "www.hooseek.com"
@@ -3516,6 +3569,14 @@
                 "q"
             ]
         }, 
+        "Genieo": {
+            "domains": [
+                "search.genieo.com"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
         "Tiscali": {
             "domains": [
                 "search.tiscali.it", 
@@ -3537,9 +3598,58 @@
         }
     }, 
     "email": {
+        "Bigpond": {
+            "domains": [
+                "webmail.bigpond.com", 
+                "webmail2.bigpond.com"
+            ]
+        }, 
+        "Naver Mail": {
+            "domains": [
+                "mail.naver.com"
+            ]
+        }, 
+        "Optus Zoo": {
+            "domains": [
+                "webmail.optuszoo.com.au"
+            ]
+        }, 
+        "Seznam Mail": {
+            "domains": [
+                "email.seznam.cz"
+            ]
+        }, 
+        "126 Mail": {
+            "domains": [
+                "mail.126.com"
+            ]
+        }, 
         "Outlook.com": {
             "domains": [
                 "mail.live.com"
+            ]
+        }, 
+        "AOL Mail": {
+            "domains": [
+                "mail.aol.com"
+            ]
+        }, 
+        "Daum Mail": {
+            "domains": [
+                "mail2.daum.net"
+            ]
+        }, 
+        "Yahoo! Mail": {
+            "domains": [
+                "mail.yahoo.net", 
+                "mail.yahoo.com", 
+                "mail.yahoo.co.uk", 
+                "mail.yahoo.co.jp"
+            ]
+        }, 
+        "163 Mail": {
+            "domains": [
+                "mail.163.com"
             ]
         }, 
         "Orange Webmail": {
@@ -3547,11 +3657,9 @@
                 "orange.fr/webmail"
             ]
         }, 
-        "Yahoo! Mail": {
+        "QQ Mail": {
             "domains": [
-                "mail.yahoo.net", 
-                "mail.yahoo.com", 
-                "mail.yahoo.co.uk"
+                "mail.qq.com"
             ]
         }, 
         "Gmail": {
@@ -3672,6 +3780,11 @@
                 "weeworld.com"
             ]
         }, 
+        "Vimeo": {
+            "domains": [
+                "vimeo.com"
+            ]
+        }, 
         "Geni": {
             "domains": [
                 "geni.com"
@@ -3700,6 +3813,11 @@
         "XING": {
             "domains": [
                 "xing.com"
+            ]
+        }, 
+        "Instagram": {
+            "domains": [
+                "instagram.com"
             ]
         }, 
         "Vkontakte": {
@@ -3774,6 +3892,11 @@
                 "global.cyworld.com"
             ]
         }, 
+        "Pocket": {
+            "domains": [
+                "getpocket.com"
+            ]
+        }, 
         "Skyrock": {
             "domains": [
                 "skyrock.com"
@@ -3806,6 +3929,11 @@
                 "nk.pl"
             ]
         }, 
+        "Qzone": {
+            "domains": [
+                "qzone.qq.com"
+            ]
+        }, 
         "Douban": {
             "domains": [
                 "douban.com"
@@ -3814,6 +3942,12 @@
         "Bebo": {
             "domains": [
                 "bebo.com"
+            ]
+        }, 
+        "Youtube": {
+            "domains": [
+                "youtube.com", 
+                "youtu.be"
             ]
         }, 
         "Reddit": {
@@ -3866,9 +4000,9 @@
                 "news.ycombinator.com"
             ]
         }, 
-        "Qzone": {
+        "Delicious": {
             "domains": [
-                "qzone.qq.com"
+                "delicious.com"
             ]
         }, 
         "Hyves": {
